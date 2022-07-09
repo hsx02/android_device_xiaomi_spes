@@ -30,4 +30,8 @@
 
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
+
+    <!-- Maintainer info -->
+    <string name="config_maintainer_name">Hitesh | Hsxzerotwo</string>
+    <string name="config_maintainer_link">http://t.me/hsxzerotwo</string>
 </resources>
