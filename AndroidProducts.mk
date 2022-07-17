@@ -20,3 +20,12 @@ COMMON_LUNCH_CHOICES := \
     aosp_spes-user \
     aosp_spes-userdebug \
     aosp_spes-eng
+
+# Copyright (C) 2022 The EvolutionX Project
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/evolution_spes.mk
+
+COMMON_LUNCH_CHOICES := \
+    evolution_spes-user \
+    evolution_spes-userdebug \
+    evolution_spes-eng
