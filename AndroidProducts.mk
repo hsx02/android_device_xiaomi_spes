@@ -29,3 +29,12 @@ COMMON_LUNCH_CHOICES := \
     evolution_spes-user \
     evolution_spes-userdebug \
     evolution_spes-eng
+
+# Copyright (C) 2022 The SparkOS Project
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/spark_spes.mk
+
+COMMON_LUNCH_CHOICES := \
+    spark_spes-user \
+    spark_spes-userdebug \
+    spark_spes-eng
